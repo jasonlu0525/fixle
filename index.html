@@ -1,10 +1,30 @@
----
-title: Boostrap Index
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Boostrap Index</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="d-flex justify-content-between align-items-center  py-3 px-5 border-bottom border-dark-200 text-lato-Bold" data-aos="slide-down"  data-aos-duration="300">
+    <h1><a href="#" class="logo">Fixie</a></h1>
+    <ul class="d-flex text-dark-300">
+      <li><a href="#" class="pe-4">Product</a></li>
+      <li><a href="#" class="px-4">Blog</a></li>
+      <li><a href="#" class="ps-4">contact</a></li>
+    </ul>
+  </header>
+
+
+  
 <div class="container-fluid g-0 overflow-hidden">
   <div class="row heading g-0">
     <div class="col-12 col-lg-6  d-flex justify-content-end align-items-center" data-aos="slide-right"
@@ -200,3 +220,28 @@ current: index
     </ul>
   </div>
 </section>
+
+  <footer class="footer bg-gray-light-100" data-aos="face-up" data-aos-duration="200"  data-aos-delay="500"  data-aos-anchor-placement="top-bottom">
+    <div class="container d-flex justify-content-between align-items-center py-4 px-5">
+      <ul class="d-flex text-dark-300 text-lato-Bold">
+        <li class="">
+          <a href="#" class="pe-4">Product</a>
+        </li>
+        <li>
+          <a href="#" class="px-4 ">Blog</a>
+        </li>
+        <li>
+          <a href="#" class="ps-4">contact</a>
+        </li>
+      </ul>
+      <h6 class="text-dark-100 mb-0 fs-7 text-lato-Regular">© 2020 Fixie. All Rights Reserved.</h6>
+      <a href="#" class="d-block"><img src="assets/images/logo-fixie.svg" alt="logo-footer"></a>
+    </div>
+  </footer>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
